@@ -1,0 +1,9 @@
+{
+  "name": "sayudha-portfolio",
+  "version": "1.0.0",
+  "description": "Sayudha Portofolio Project",
+  "devDependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  }
+}
