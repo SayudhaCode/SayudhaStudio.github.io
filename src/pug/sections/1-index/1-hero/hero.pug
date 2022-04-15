@@ -1,0 +1,10 @@
+.hero
+	.container 
+		nav.navbar.py-4
+			-var menus = ['hi', 'resume', 'portfolio', 'blog', 'contact']
+			ul.d-flex
+				each menu in menus
+					li.pe-5= menu
+		.row.hero--mt
+			include ./hero-img.pug
+			include ./hero-desc.pug

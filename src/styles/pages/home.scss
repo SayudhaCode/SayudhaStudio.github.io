@@ -1,0 +1,42 @@
+.hero {
+	position: relative;
+	background: linear-gradient(230deg,rgba(1,6,71,0.85),rgb(3 139 135 / 85%)),url(./assets/img/hero-image.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 500px;
+	color: white;
+
+	&--mt {
+		margin-top: 5rem;
+	}
+
+	&__img {
+		& img {
+			max-width: 300px;
+		}
+	}
+
+	&__desc {
+		&__detail {
+			table {
+				tr {
+					border: none;
+					
+					td:first-child,
+					td:nth-child(2) {
+						font-weight: 600;
+						color: #787878;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+		&__icon {
+			a {
+				> img {
+					color: rgba($color: #000000, $alpha: 0.7);
+				}
+			}
+		}
+	}
+}
