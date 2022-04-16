@@ -40,3 +40,26 @@
 		}
 	}
 }
+
+.resume {
+	&__tl {
+		border-left: 2px solid $color-primary;
+		position: relative;
+		&::before {
+			content: '';
+			position: absolute;
+			left: 0;
+			transform: translateX(-55%);
+			width: 15px;
+			height: 15px;
+			border-radius: 100%;
+			border: 2px solid $color-primary;
+			background-color: white;
+		}
+
+		&--aligning {
+			transform: translateY(-5px);
+			display: block;
+		}
+	}
+}
